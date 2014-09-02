@@ -6,6 +6,8 @@ class MultiOperationCalculatorTest extends \PHPUnit_Framework_TestCase
     public function dataProvider()
     {
         return array(
+            array('15 + 2', 17),
+            array('-4 / 2', -2),
             array('15 + 2 - 4 + 2', 15),
             array('-4 / 2 + 2', 0),
             array('-4', -4)
