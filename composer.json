@@ -1,0 +1,11 @@
+{
+    "require": {
+        "phpunit/phpunit": "4.2.4",
+        "satooshi/php-coveralls": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "": "src/"
+        }
+    }
+}
