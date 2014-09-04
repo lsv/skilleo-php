@@ -1,6 +1,6 @@
 <?php
 
-class ThePairofCharacters
+class ThePairofCharacters2
 {
 
     /**

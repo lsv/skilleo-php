@@ -1,5 +1,5 @@
 <?php
-class RockPaperScissor
+class RockPaperScissor9
 {
 
     static private $moves = array(

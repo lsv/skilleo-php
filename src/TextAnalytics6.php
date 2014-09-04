@@ -1,24 +1,27 @@
 <?php
 
-class TextAnalytics
+class TextAnalytics6
 {
     /**
      * @param array $data
      * @param int $times
-     * @return array
+     * @return array [0]=array: Array of used, [1]=integer: Number of used above $times
      */
     static private function analyzeArray(array $data, $times = 2)
     {
-        $i = 0;
         $used = array();
         foreach($data as $w) {
             if (isset($used[$w])) {
-                if ($used[$w] >= ($times - 1)) {
-                    $i++;
-                }
                 $used[$w]++;
             } else {
                 $used[$w] = 1;
+            }
+        }
+
+        $i = 0;
+        foreach($used as $num) {
+            if ($num >= $times) {
+                $i++;
             }
         }
 

@@ -1,6 +1,6 @@
 <?php
 
-class PasswordStrength
+class PasswordStrength7
 {
 
     const RETURN_FALSE = 'Invalid';

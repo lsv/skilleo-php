@@ -20,7 +20,7 @@ class RockPaperScissorTest extends \PHPUnit_Framework_TestCase
     public function testPlayers($players, $winner)
     {
         $players = explode(',', $players);
-        $this->assertEquals($winner, RockPaperScissor::RpsTournament($players));
+        $this->assertEquals($winner, RockPaperScissor9::RpsTournament($players));
     }
 
 }

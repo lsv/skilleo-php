@@ -19,7 +19,7 @@ class ThePairofCharactersTest extends \PHPUnit_Framework_TestCase
      */
     public function test_can_get_pairs($input, $expected)
     {
-        $this->assertEquals($expected, ThePairofCharacters::pairOfCharacters($input));
+        $this->assertEquals($expected, ThePairofCharacters2::pairOfCharacters($input));
     }
 
 } 

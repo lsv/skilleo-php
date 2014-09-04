@@ -1,5 +1,5 @@
 <?php
-class MultiOperationCalculator
+class MultiOperationCalculator4
 {
 
     /**

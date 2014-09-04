@@ -21,27 +21,27 @@ class MultiOperationCalculatorTest extends \PHPUnit_Framework_TestCase
      */
     public function test_can_do_math($math, $result)
     {
-        $this->assertEquals($result, \MultiOperationCalculator::math($math));
+        $this->assertEquals($result, \MultiOperationCalculator4::math($math));
     }
 
     public function test_can_add()
     {
-        $this->assertEquals(10, \MultiOperationCalculator::math('5 + 5'));
+        $this->assertEquals(10, \MultiOperationCalculator4::math('5 + 5'));
     }
 
     public function test_can_divide()
     {
-        $this->assertEquals(5, \MultiOperationCalculator::math('10 / 2'));
+        $this->assertEquals(5, \MultiOperationCalculator4::math('10 / 2'));
     }
 
     public function test_can_substract()
     {
-        $this->assertEquals(0, \MultiOperationCalculator::math('5 - 5'));
+        $this->assertEquals(0, \MultiOperationCalculator4::math('5 - 5'));
     }
 
     public function test_can_multiply()
     {
-        $this->assertEquals(10, \MultiOperationCalculator::math('2 * 5'));
+        $this->assertEquals(10, \MultiOperationCalculator4::math('2 * 5'));
     }
 
 }
