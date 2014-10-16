@@ -1,0 +1,8 @@
+{
+    "dependencies": {
+        "gulp": "",
+        "gulp-phpunit": "",
+        "gulp-notify": "",
+        "gulp-run": ""
+    }
+}
